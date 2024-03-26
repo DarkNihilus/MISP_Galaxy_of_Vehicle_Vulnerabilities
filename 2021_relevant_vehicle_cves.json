@@ -1,0 +1,2488 @@
+[
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "Opcenter Quality",
+                        "vendor": "Siemens",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "All versions < V12.2"
+                            }
+                        ]
+                    },
+                    {
+                        "product": "QMS Automotive",
+                        "vendor": "Siemens",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "All versions < V12.30"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "A vulnerability has been identified in Opcenter Quality (All versions < V12.2), QMS Automotive (All versions < V12.30). A private sign key is shipped with the product without adequate protection."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "cweId": "CWE-321",
+                                "description": "CWE-321: Use of Hard-coded Cryptographic Key",
+                                "lang": "en",
+                                "type": "CWE"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2021-04-22T20:42:21",
+                    "orgId": "cec7a2ec-15b4-4faf-bd53-b40f371f3a77",
+                    "shortName": "siemens"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-788287.pdf"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "productcert@siemens.com",
+                        "ID": "CVE-2021-27389",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "Opcenter Quality",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "All versions < V12.2"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "product_name": "QMS Automotive",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "All versions < V12.30"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "Siemens"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "A vulnerability has been identified in Opcenter Quality (All versions < V12.2), QMS Automotive (All versions < V12.30). A private sign key is shipped with the product without adequate protection."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "CWE-321: Use of Hard-coded Cryptographic Key"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://cert-portal.siemens.com/productcert/pdf/ssa-788287.pdf",
+                                "refsource": "MISC",
+                                "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-788287.pdf"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "cec7a2ec-15b4-4faf-bd53-b40f371f3a77",
+            "assignerShortName": "siemens",
+            "cveId": "CVE-2021-27389",
+            "datePublished": "2021-04-22T20:42:21",
+            "dateReserved": "2021-02-18T00:00:00",
+            "dateUpdated": "2021-04-22T20:42:21",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "A persistent cross site scripting (XSS) vulnerability in the Add Categories module of Vehicle Parking Management System 1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload in the Category field."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2021-08-19T13:58:57",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.exploit-db.com/exploits/49595"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-27822",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "A persistent cross site scripting (XSS) vulnerability in the Add Categories module of Vehicle Parking Management System 1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload in the Category field."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.exploit-db.com/exploits/49595",
+                                "refsource": "MISC",
+                                "url": "https://www.exploit-db.com/exploits/49595"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-27822",
+            "datePublished": "2021-08-19T13:58:57",
+            "dateReserved": "2021-03-01T00:00:00",
+            "dateUpdated": "2021-08-19T13:58:57",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "X2CRM",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "8"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "A Cross-Site Scripting (XSS) attack can cause arbitrary code (javascript) to run in a user\u2019s browser while the browser is connected to a trusted website. As the vehicle for the attack, the application targets the users and not the application itself. Additionally, the XSS payload is executed when the user attempts to access any page of the CRM."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "cweId": "CWE-79",
+                                "description": "CWE-79",
+                                "lang": "en",
+                                "type": "CWE"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-03-16T14:03:37",
+                    "orgId": "ee1bbb37-1770-46bd-bba8-910037954ee0",
+                    "shortName": "CSW"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://cybersecurityworks.com/zerodays/cve-2021-33853-stored-cross-site-scripting-in-x2crm.html"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "disclose@cybersecurityworks.com",
+                        "ID": "CVE-2021-33853",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "X2CRM",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "8"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "A Cross-Site Scripting (XSS) attack can cause arbitrary code (javascript) to run in a user\u2019s browser while the browser is connected to a trusted website. As the vehicle for the attack, the application targets the users and not the application itself. Additionally, the XSS payload is executed when the user attempts to access any page of the CRM."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "CWE-79"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://cybersecurityworks.com/zerodays/cve-2021-33853-stored-cross-site-scripting-in-x2crm.html",
+                                "refsource": "MISC",
+                                "url": "https://cybersecurityworks.com/zerodays/cve-2021-33853-stored-cross-site-scripting-in-x2crm.html"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "ee1bbb37-1770-46bd-bba8-910037954ee0",
+            "assignerShortName": "CSW",
+            "cveId": "CVE-2021-33853",
+            "datePublished": "2022-03-16T14:03:37",
+            "dateReserved": "2021-06-04T00:00:00",
+            "dateUpdated": "2022-03-16T14:03:37",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "A Stored Cross Site Scripting (XSS) vunerability exists in Sourcecodeste Vehicle Parking Management System affected version 1.0 is via the add-vehicle.php endpoint."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2021-10-27T15:52:49",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://packetstormsecurity.com/files/163625/Vehicle-Parking-Management-System-1.0-Cross-Site-Scripting.html"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-37805",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "A Stored Cross Site Scripting (XSS) vunerability exists in Sourcecodeste Vehicle Parking Management System affected version 1.0 is via the add-vehicle.php endpoint."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://packetstormsecurity.com/files/163625/Vehicle-Parking-Management-System-1.0-Cross-Site-Scripting.html",
+                                "refsource": "MISC",
+                                "url": "https://packetstormsecurity.com/files/163625/Vehicle-Parking-Management-System-1.0-Cross-Site-Scripting.html"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-37805",
+            "datePublished": "2021-10-27T15:52:49",
+            "dateReserved": "2021-08-02T00:00:00",
+            "dateUpdated": "2021-10-27T15:52:49",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Vehicle Service Management System 1.0 via the Owner fullname parameter in a Send Service Request in vehicle_service."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2021-12-16T17:43:05",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/lohyt/-CVE-2021-41962"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-41962",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Vehicle Service Management System 1.0 via the Owner fullname parameter in a Send Service Request in vehicle_service."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://github.com/lohyt/-CVE-2021-41962",
+                                "refsource": "MISC",
+                                "url": "https://github.com/lohyt/-CVE-2021-41962"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-41962",
+            "datePublished": "2021-12-16T17:43:05",
+            "dateReserved": "2021-10-04T00:00:00",
+            "dateUpdated": "2021-12-16T17:43:05",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Online Pre-owned/Used Car Showroom Management System 1.0 contains a SQL injection authentication bypass vulnerability. Admin panel authentication can be bypassed due to SQL injection vulnerability in the login form allowing attacker to get admin access on the application."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2021-12-22T17:52:22",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.exploit-db.com/exploits/50560"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.nu11secur1ty.com/2021/12/cve-2021-44655.html"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/nu11secur1ty/CVE-mitre/tree/main/CVE-2021-44655"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-44655",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "Online Pre-owned/Used Car Showroom Management System 1.0 contains a SQL injection authentication bypass vulnerability. Admin panel authentication can be bypassed due to SQL injection vulnerability in the login form allowing attacker to get admin access on the application."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.exploit-db.com/exploits/50560",
+                                "refsource": "MISC",
+                                "url": "https://www.exploit-db.com/exploits/50560"
+                            },
+                            {
+                                "name": "https://www.nu11secur1ty.com/2021/12/cve-2021-44655.html",
+                                "refsource": "MISC",
+                                "url": "https://www.nu11secur1ty.com/2021/12/cve-2021-44655.html"
+                            },
+                            {
+                                "name": "https://github.com/nu11secur1ty/CVE-mitre/tree/main/CVE-2021-44655",
+                                "refsource": "MISC",
+                                "url": "https://github.com/nu11secur1ty/CVE-mitre/tree/main/CVE-2021-44655"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-44655",
+            "datePublished": "2021-12-15T15:50:10",
+            "dateReserved": "2021-12-06T00:00:00",
+            "dateUpdated": "2021-12-22T17:52:22",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "In Vehicle Service Management System 1.0 an attacker can steal the cookies leading to Full Account Takeover."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-01-06T15:46:18",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.plsanu.com/vehicle-service-management-system-multiple-cookie-stealing-leads-to-full-account-takeover"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Cookie-Stealing-Leads-to-Full-Account-Takeover"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-46067",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "In Vehicle Service Management System 1.0 an attacker can steal the cookies leading to Full Account Takeover."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.plsanu.com/vehicle-service-management-system-multiple-cookie-stealing-leads-to-full-account-takeover",
+                                "refsource": "MISC",
+                                "url": "https://www.plsanu.com/vehicle-service-management-system-multiple-cookie-stealing-leads-to-full-account-takeover"
+                            },
+                            {
+                                "name": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Cookie-Stealing-Leads-to-Full-Account-Takeover",
+                                "refsource": "MISC",
+                                "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Cookie-Stealing-Leads-to-Full-Account-Takeover"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-46067",
+            "datePublished": "2022-01-06T15:46:18",
+            "dateReserved": "2022-01-03T00:00:00",
+            "dateUpdated": "2022-01-06T15:46:18",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the My Account Section in login panel."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-01-06T15:46:53",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.plsanu.com/vehicle-service-management-system-myaccount-stored-cross-site-scripting-xss"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/plsanu/Vehicle-Service-Management-System-MyAccount-Stored-Cross-Site-Scripting-XSS"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-46068",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the My Account Section in login panel."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.plsanu.com/vehicle-service-management-system-myaccount-stored-cross-site-scripting-xss",
+                                "refsource": "MISC",
+                                "url": "https://www.plsanu.com/vehicle-service-management-system-myaccount-stored-cross-site-scripting-xss"
+                            },
+                            {
+                                "name": "https://github.com/plsanu/Vehicle-Service-Management-System-MyAccount-Stored-Cross-Site-Scripting-XSS",
+                                "refsource": "MISC",
+                                "url": "https://github.com/plsanu/Vehicle-Service-Management-System-MyAccount-Stored-Cross-Site-Scripting-XSS"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-46068",
+            "datePublished": "2022-01-06T15:46:53",
+            "dateReserved": "2022-01-03T00:00:00",
+            "dateUpdated": "2022-01-06T15:46:53",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the Mechanic List Section in login panel."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-01-06T15:30:49",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.plsanu.com/vehicle-service-management-system-mechanic-list-stored-cross-site-scripting-xss"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Mechanic-List-Stored-Cross-Site-Scripting-XSS"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-46069",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the Mechanic List Section in login panel."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.plsanu.com/vehicle-service-management-system-mechanic-list-stored-cross-site-scripting-xss",
+                                "refsource": "MISC",
+                                "url": "https://www.plsanu.com/vehicle-service-management-system-mechanic-list-stored-cross-site-scripting-xss"
+                            },
+                            {
+                                "name": "https://github.com/plsanu/Vehicle-Service-Management-System-Mechanic-List-Stored-Cross-Site-Scripting-XSS",
+                                "refsource": "MISC",
+                                "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Mechanic-List-Stored-Cross-Site-Scripting-XSS"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-46069",
+            "datePublished": "2022-01-06T15:30:49",
+            "dateReserved": "2022-01-03T00:00:00",
+            "dateUpdated": "2022-01-06T15:30:49",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the Service Requests Section in login panel."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-01-06T15:29:47",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.plsanu.com/vehicle-service-management-system-service-requests-stored-cross-site-scripting-xss"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Service-Requests-Stored-Cross-Site-Scripting-XSS"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-46070",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the Service Requests Section in login panel."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.plsanu.com/vehicle-service-management-system-service-requests-stored-cross-site-scripting-xss",
+                                "refsource": "MISC",
+                                "url": "https://www.plsanu.com/vehicle-service-management-system-service-requests-stored-cross-site-scripting-xss"
+                            },
+                            {
+                                "name": "https://github.com/plsanu/Vehicle-Service-Management-System-Service-Requests-Stored-Cross-Site-Scripting-XSS",
+                                "refsource": "MISC",
+                                "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Service-Requests-Stored-Cross-Site-Scripting-XSS"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-46070",
+            "datePublished": "2022-01-06T15:29:47",
+            "dateReserved": "2022-01-03T00:00:00",
+            "dateUpdated": "2022-01-06T15:29:47",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the Category List Section in login panel."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-01-06T15:27:36",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.plsanu.com/vehicle-service-management-system-category-list-stored-cross-site-scripting-xss"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-46071",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the Category List Section in login panel."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.plsanu.com/vehicle-service-management-system-category-list-stored-cross-site-scripting-xss",
+                                "refsource": "MISC",
+                                "url": "https://www.plsanu.com/vehicle-service-management-system-category-list-stored-cross-site-scripting-xss"
+                            },
+                            {
+                                "name": "https://github.com/plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS",
+                                "refsource": "MISC",
+                                "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Category-List-Stored-Cross-Site-Scripting-XSS"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-46071",
+            "datePublished": "2022-01-06T15:27:36",
+            "dateReserved": "2022-01-03T00:00:00",
+            "dateUpdated": "2022-01-06T15:27:36",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the Service List Section in login panel."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-01-06T15:26:29",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.plsanu.com/vehicle-service-management-system-service-list-stored-cross-site-scripting-xss"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Service-List-Stored-Cross-Site-Scripting-XSS"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-46072",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Vehicle Service Management System 1.0 via the Service List Section in login panel."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.plsanu.com/vehicle-service-management-system-service-list-stored-cross-site-scripting-xss",
+                                "refsource": "MISC",
+                                "url": "https://www.plsanu.com/vehicle-service-management-system-service-list-stored-cross-site-scripting-xss"
+                            },
+                            {
+                                "name": "https://github.com/plsanu/Vehicle-Service-Management-System-Service-List-Stored-Cross-Site-Scripting-XSS",
+                                "refsource": "MISC",
+                                "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Service-List-Stored-Cross-Site-Scripting-XSS"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-46072",
+            "datePublished": "2022-01-06T15:26:29",
+            "dateReserved": "2022-01-03T00:00:00",
+            "dateUpdated": "2022-01-06T15:26:29",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Vehicle Service Management System 1.0 via the User List Section in login panel."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-01-06T15:25:03",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.plsanu.com/vehicle-service-management-system-user-list-stored-cross-site-scripting-xss"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/plsanu/Vehicle-Service-Management-System-User-List-Stored-Cross-Site-Scripting-XSS"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-46073",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Vehicle Service Management System 1.0 via the User List Section in login panel."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.plsanu.com/vehicle-service-management-system-user-list-stored-cross-site-scripting-xss",
+                                "refsource": "MISC",
+                                "url": "https://www.plsanu.com/vehicle-service-management-system-user-list-stored-cross-site-scripting-xss"
+                            },
+                            {
+                                "name": "https://github.com/plsanu/Vehicle-Service-Management-System-User-List-Stored-Cross-Site-Scripting-XSS",
+                                "refsource": "MISC",
+                                "url": "https://github.com/plsanu/Vehicle-Service-Management-System-User-List-Stored-Cross-Site-Scripting-XSS"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-46073",
+            "datePublished": "2022-01-06T15:25:03",
+            "dateReserved": "2022-01-03T00:00:00",
+            "dateUpdated": "2022-01-06T15:25:03",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Vehicle Service Management System 1.0 via the Settings Section in login panel."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-01-06T15:23:10",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.plsanu.com/vehicle-service-management-system-settings-stored-cross-site-scripting-xss"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Settings-Stored-Cross-Site-Scripting-XSS"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-46074",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "A Stored Cross Site Scripting (XSS) vulnerability exists in Sourcecodester Vehicle Service Management System 1.0 via the Settings Section in login panel."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.plsanu.com/vehicle-service-management-system-settings-stored-cross-site-scripting-xss",
+                                "refsource": "MISC",
+                                "url": "https://www.plsanu.com/vehicle-service-management-system-settings-stored-cross-site-scripting-xss"
+                            },
+                            {
+                                "name": "https://github.com/plsanu/Vehicle-Service-Management-System-Settings-Stored-Cross-Site-Scripting-XSS",
+                                "refsource": "MISC",
+                                "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Settings-Stored-Cross-Site-Scripting-XSS"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-46074",
+            "datePublished": "2022-01-06T15:23:10",
+            "dateReserved": "2022-01-03T00:00:00",
+            "dateUpdated": "2022-01-06T15:23:10",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "A Privilege Escalation vulnerability exists in Sourcecodester Vehicle Service Management System 1.0. Staff account users can access the admin resources and perform CRUD Operations."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-01-06T15:02:19",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.plsanu.com/vehicle-service-management-system-multiple-privilege-escalation-leads-to-crud-operations"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Privilege-Escalation-Leads-to-CRUD-Operations"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-46075",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "A Privilege Escalation vulnerability exists in Sourcecodester Vehicle Service Management System 1.0. Staff account users can access the admin resources and perform CRUD Operations."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.plsanu.com/vehicle-service-management-system-multiple-privilege-escalation-leads-to-crud-operations",
+                                "refsource": "MISC",
+                                "url": "https://www.plsanu.com/vehicle-service-management-system-multiple-privilege-escalation-leads-to-crud-operations"
+                            },
+                            {
+                                "name": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Privilege-Escalation-Leads-to-CRUD-Operations",
+                                "refsource": "MISC",
+                                "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Privilege-Escalation-Leads-to-CRUD-Operations"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-46075",
+            "datePublished": "2022-01-06T15:02:19",
+            "dateReserved": "2022-01-03T00:00:00",
+            "dateUpdated": "2022-01-06T15:02:19",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Sourcecodester Vehicle Service Management System 1.0 is vulnerable to File upload. An attacker can upload a malicious php file in multiple endpoints it leading to Code Execution."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-01-06T14:53:16",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.plsanu.com/vehicle-service-management-system-multiple-file-upload-leads-to-code-execution"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Code-Execution"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-46076",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "Sourcecodester Vehicle Service Management System 1.0 is vulnerable to File upload. An attacker can upload a malicious php file in multiple endpoints it leading to Code Execution."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.plsanu.com/vehicle-service-management-system-multiple-file-upload-leads-to-code-execution",
+                                "refsource": "MISC",
+                                "url": "https://www.plsanu.com/vehicle-service-management-system-multiple-file-upload-leads-to-code-execution"
+                            },
+                            {
+                                "name": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Code-Execution",
+                                "refsource": "MISC",
+                                "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Code-Execution"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-46076",
+            "datePublished": "2022-01-06T14:53:16",
+            "dateReserved": "2022-01-03T00:00:00",
+            "dateUpdated": "2022-01-06T14:53:16",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "An Unrestricted File Upload vulnerability exists in Sourcecodester Vehicle Service Management System 1.0. A remote attacker can upload malicious files leading to a Stored Cross-Site Scripting vulnerability."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-01-06T15:57:10",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.plsanu.com/vehicle-service-management-system-multiple-file-upload-leads-to-stored-cross-site-scripting"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Stored-Cross-Site-Scripting"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-46078",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "An Unrestricted File Upload vulnerability exists in Sourcecodester Vehicle Service Management System 1.0. A remote attacker can upload malicious files leading to a Stored Cross-Site Scripting vulnerability."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.plsanu.com/vehicle-service-management-system-multiple-file-upload-leads-to-stored-cross-site-scripting",
+                                "refsource": "MISC",
+                                "url": "https://www.plsanu.com/vehicle-service-management-system-multiple-file-upload-leads-to-stored-cross-site-scripting"
+                            },
+                            {
+                                "name": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Stored-Cross-Site-Scripting",
+                                "refsource": "MISC",
+                                "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Stored-Cross-Site-Scripting"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-46078",
+            "datePublished": "2022-01-06T15:57:10",
+            "dateReserved": "2022-01-03T00:00:00",
+            "dateUpdated": "2022-01-06T15:57:10",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "An Unrestricted File Upload vulnerability exists in Sourcecodester Vehicle Service Management System 1.0. A remote attacker can upload malicious files leading to Html Injection."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-01-06T15:59:57",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.plsanu.com/vehicle-service-management-system-multiple-file-upload-leads-to-html-injection"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Html-Injection"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-46079",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "An Unrestricted File Upload vulnerability exists in Sourcecodester Vehicle Service Management System 1.0. A remote attacker can upload malicious files leading to Html Injection."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.plsanu.com/vehicle-service-management-system-multiple-file-upload-leads-to-html-injection",
+                                "refsource": "MISC",
+                                "url": "https://www.plsanu.com/vehicle-service-management-system-multiple-file-upload-leads-to-html-injection"
+                            },
+                            {
+                                "name": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Html-Injection",
+                                "refsource": "MISC",
+                                "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-File-upload-Leads-to-Html-Injection"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-46079",
+            "datePublished": "2022-01-06T15:59:57",
+            "dateReserved": "2022-01-03T00:00:00",
+            "dateUpdated": "2022-01-06T15:59:57",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "A Cross Site Request Forgery (CSRF) vulnerability exists in Vehicle Service Management System 1.0. An successful CSRF attacks leads to Stored Cross Site Scripting Vulnerability."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2022-01-06T14:47:43",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.plsanu.com/vehicle-service-management-system-multiple-cross-site-request-forgery-csrf-leads-to-stored-cross-site-scripting-xss"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Cross-Site-Request-Forgery-CSRF-Leads-to-XSS"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2021-46080",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "A Cross Site Request Forgery (CSRF) vulnerability exists in Vehicle Service Management System 1.0. An successful CSRF attacks leads to Stored Cross Site Scripting Vulnerability."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.plsanu.com/vehicle-service-management-system-multiple-cross-site-request-forgery-csrf-leads-to-stored-cross-site-scripting-xss",
+                                "refsource": "MISC",
+                                "url": "https://www.plsanu.com/vehicle-service-management-system-multiple-cross-site-request-forgery-csrf-leads-to-stored-cross-site-scripting-xss"
+                            },
+                            {
+                                "name": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Cross-Site-Request-Forgery-CSRF-Leads-to-XSS",
+                                "refsource": "MISC",
+                                "url": "https://github.com/plsanu/Vehicle-Service-Management-System-Multiple-Cross-Site-Request-Forgery-CSRF-Leads-to-XSS"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2021-46080",
+            "datePublished": "2022-01-06T14:47:43",
+            "dateReserved": "2022-01-03T00:00:00",
+            "dateUpdated": "2022-01-06T14:47:43",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    }
+]

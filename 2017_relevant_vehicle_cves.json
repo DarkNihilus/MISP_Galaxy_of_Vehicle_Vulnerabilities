@@ -1,0 +1,1162 @@
+[
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "dateAssigned": "2017-12-29T00:00:00",
+                "datePublic": "2017-12-29T00:00:00",
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Soyket Chowdhury Vehicle Sales Management System version 2017-07-30 is vulnerable to multiple SQL Injecting in login/vehicle.php, login/profile.php, login/Actions.php, login/manage_employee.php, and login/sell.php scripts resulting in the expose of user's login credentials, SQL Injection and Stored XSS vulnerability, which leads to remote code executing."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2018-03-22T09:57:01",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "name": "44318",
+                        "tags": [
+                            "exploit",
+                            "x_refsource_EXPLOIT-DB"
+                        ],
+                        "url": "https://www.exploit-db.com/exploits/44318/"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "http://singsip.wixsite.com/singsip/vuln"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "DATE_ASSIGNED": "2017-12-29",
+                        "ID": "CVE-2017-1000474",
+                        "REQUESTER": "drumsmith101@hotmail.com",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "Soyket Chowdhury Vehicle Sales Management System version 2017-07-30 is vulnerable to multiple SQL Injecting in login/vehicle.php, login/profile.php, login/Actions.php, login/manage_employee.php, and login/sell.php scripts resulting in the expose of user's login credentials, SQL Injection and Stored XSS vulnerability, which leads to remote code executing."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "44318",
+                                "refsource": "EXPLOIT-DB",
+                                "url": "https://www.exploit-db.com/exploits/44318/"
+                            },
+                            {
+                                "name": "http://singsip.wixsite.com/singsip/vuln",
+                                "refsource": "MISC",
+                                "url": "http://singsip.wixsite.com/singsip/vuln"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2017-1000474",
+            "datePublished": "2018-01-24T22:00:00",
+            "dateReserved": "2018-01-24T00:00:00",
+            "dateUpdated": "2018-03-22T09:57:01",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "datePublic": "2019-06-07T00:00:00",
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that any malicious user connecting to the device can change the default SSID and password thereby denying the owner an access to his/her own device. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2019-06-17T21:29:02",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "name": "20190609 Newly releases IoT security issues",
+                        "tags": [
+                            "mailing-list",
+                            "x_refsource_BUGTRAQ"
+                        ],
+                        "url": "https://seclists.org/bugtraq/2019/Jun/8"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2017-10718",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that any malicious user connecting to the device can change the default SSID and password thereby denying the owner an access to his/her own device. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "20190609 Newly releases IoT security issues",
+                                "refsource": "BUGTRAQ",
+                                "url": "https://seclists.org/bugtraq/2019/Jun/8"
+                            },
+                            {
+                                "name": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html",
+                                "refsource": "MISC",
+                                "url": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html"
+                            },
+                            {
+                                "name": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf",
+                                "refsource": "MISC",
+                                "url": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2017-10718",
+            "datePublished": "2019-06-17T21:28:39",
+            "dateReserved": "2017-07-01T00:00:00",
+            "dateUpdated": "2019-06-17T21:29:02",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "datePublic": "2019-06-07T00:00:00",
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that the device has default Wi-Fi credentials that are exactly the same for every device. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2019-06-17T21:25:25",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "name": "20190609 Newly releases IoT security issues",
+                        "tags": [
+                            "mailing-list",
+                            "x_refsource_BUGTRAQ"
+                        ],
+                        "url": "https://seclists.org/bugtraq/2019/Jun/8"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2017-10719",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that the device has default Wi-Fi credentials that are exactly the same for every device. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "20190609 Newly releases IoT security issues",
+                                "refsource": "BUGTRAQ",
+                                "url": "https://seclists.org/bugtraq/2019/Jun/8"
+                            },
+                            {
+                                "name": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html",
+                                "refsource": "MISC",
+                                "url": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html"
+                            },
+                            {
+                                "name": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf",
+                                "refsource": "MISC",
+                                "url": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2017-10719",
+            "datePublished": "2019-06-17T21:24:10",
+            "dateReserved": "2017-07-01T00:00:00",
+            "dateUpdated": "2019-06-17T21:25:25",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "datePublic": "2019-06-07T00:00:00",
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that the device has Telnet functionality enabled by default. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2019-06-17T21:24:52",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "name": "20190609 Newly releases IoT security issues",
+                        "tags": [
+                            "mailing-list",
+                            "x_refsource_BUGTRAQ"
+                        ],
+                        "url": "https://seclists.org/bugtraq/2019/Jun/8"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2017-10721",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that the device has Telnet functionality enabled by default. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "20190609 Newly releases IoT security issues",
+                                "refsource": "BUGTRAQ",
+                                "url": "https://seclists.org/bugtraq/2019/Jun/8"
+                            },
+                            {
+                                "name": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html",
+                                "refsource": "MISC",
+                                "url": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html"
+                            },
+                            {
+                                "name": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf",
+                                "refsource": "MISC",
+                                "url": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2017-10721",
+            "datePublished": "2019-06-17T21:19:47",
+            "dateReserved": "2017-07-01T00:00:00",
+            "dateUpdated": "2019-06-17T21:24:52",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "datePublic": "2019-06-07T00:00:00",
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that an attacker connected to the device Wi-Fi SSID can exploit a memory corruption issue and execute remote code on the device. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries. The firmware contains binary uvc_stream that is the UDP daemon which is responsible for handling all the UDP requests that the device receives. The client application sends a UDP request to change the Wi-Fi name which contains the following format: \"SETCMD0001+0001+[2 byte length of wifiname]+[Wifiname]. This request is handled by \"control_Dev_thread\" function which at address \"0x00409AE0\" compares the incoming request and determines if the 10th byte is 01 and if it is then it redirects to 0x0040A74C which calls the function \"setwifiname\". The function \"setwifiname\" uses a memcpy function but uses the length of the payload obtained by using strlen function as the third parameter which is the number of bytes to copy and this allows an attacker to overflow the function and control the $PC value."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2019-06-17T21:33:42",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "name": "20190609 Newly releases IoT security issues",
+                        "tags": [
+                            "mailing-list",
+                            "x_refsource_BUGTRAQ"
+                        ],
+                        "url": "https://seclists.org/bugtraq/2019/Jun/8"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2017-10723",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that an attacker connected to the device Wi-Fi SSID can exploit a memory corruption issue and execute remote code on the device. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries. The firmware contains binary uvc_stream that is the UDP daemon which is responsible for handling all the UDP requests that the device receives. The client application sends a UDP request to change the Wi-Fi name which contains the following format: \"SETCMD0001+0001+[2 byte length of wifiname]+[Wifiname]. This request is handled by \"control_Dev_thread\" function which at address \"0x00409AE0\" compares the incoming request and determines if the 10th byte is 01 and if it is then it redirects to 0x0040A74C which calls the function \"setwifiname\". The function \"setwifiname\" uses a memcpy function but uses the length of the payload obtained by using strlen function as the third parameter which is the number of bytes to copy and this allows an attacker to overflow the function and control the $PC value."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "20190609 Newly releases IoT security issues",
+                                "refsource": "BUGTRAQ",
+                                "url": "https://seclists.org/bugtraq/2019/Jun/8"
+                            },
+                            {
+                                "name": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html",
+                                "refsource": "MISC",
+                                "url": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html"
+                            },
+                            {
+                                "name": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf",
+                                "refsource": "MISC",
+                                "url": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2017-10723",
+            "datePublished": "2019-06-17T21:32:04",
+            "dateReserved": "2017-07-01T00:00:00",
+            "dateUpdated": "2019-06-17T21:33:42",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "datePublic": "2019-06-07T00:00:00",
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that an attacker connected to the device Wi-Fi SSID can exploit a memory corruption issue and execute remote code on the device. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries. The firmware contains binary uvc_stream that is the UDP daemon which is responsible for handling all the UDP requests that the device receives. The client application sends a UDP request to change the Wi-Fi name which contains the following format: \"SETCMD0001+0002+[2 byte length of wifipassword]+[Wifipassword]. This request is handled by \"control_Dev_thread\" function which at address \"0x00409AE4\" compares the incoming request and determines if the 10th byte is 02 and if it is then it redirects to 0x0040A7D8, which calls the function \"setwifipassword\". The function \"setwifipassword\" uses a memcpy function but uses the length of the payload obtained by using strlen function as the third parameter which is the number of bytes to copy and this allows an attacker to overflow the function and control the $PC value."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2019-06-17T21:36:58",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "name": "20190609 Newly releases IoT security issues",
+                        "tags": [
+                            "mailing-list",
+                            "x_refsource_BUGTRAQ"
+                        ],
+                        "url": "https://seclists.org/bugtraq/2019/Jun/8"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2017-10724",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "Recently it was discovered as a part of the research on IoT devices in the most recent firmware for Shekar Endoscope that an attacker connected to the device Wi-Fi SSID can exploit a memory corruption issue and execute remote code on the device. This device acts as an Endoscope camera that allows its users to use it in various industrial systems and settings, car garages, and also in some cases in the medical clinics to get access to areas that are difficult for a human being to reach. Any breach of this system can allow an attacker to get access to video feed and pictures viewed by that user and might allow them to get a foot hold in air gapped networks especially in case of nation critical infrastructure/industries. The firmware contains binary uvc_stream that is the UDP daemon which is responsible for handling all the UDP requests that the device receives. The client application sends a UDP request to change the Wi-Fi name which contains the following format: \"SETCMD0001+0002+[2 byte length of wifipassword]+[Wifipassword]. This request is handled by \"control_Dev_thread\" function which at address \"0x00409AE4\" compares the incoming request and determines if the 10th byte is 02 and if it is then it redirects to 0x0040A7D8, which calls the function \"setwifipassword\". The function \"setwifipassword\" uses a memcpy function but uses the length of the payload obtained by using strlen function as the third parameter which is the number of bytes to copy and this allows an attacker to overflow the function and control the $PC value."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "20190609 Newly releases IoT security issues",
+                                "refsource": "BUGTRAQ",
+                                "url": "https://seclists.org/bugtraq/2019/Jun/8"
+                            },
+                            {
+                                "name": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html",
+                                "refsource": "MISC",
+                                "url": "http://packetstormsecurity.com/files/153241/Shekar-Endoscope-Weak-Default-Settings-Memory-Corruption.html"
+                            },
+                            {
+                                "name": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf",
+                                "refsource": "MISC",
+                                "url": "https://github.com/ethanhunnt/IoT_vulnerabilities/blob/master/Shekar_boriscope_sec_issues.pdf"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2017-10724",
+            "datePublished": "2019-06-17T21:36:17",
+            "dateReserved": "2017-07-01T00:00:00",
+            "dateUpdated": "2019-06-17T21:36:58",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "datePublic": "2017-10-20T00:00:00",
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "The airbag detonation algorithm allows injury to passenger-car occupants via predictable Security Access (SA) data to the internal CAN bus (or the OBD connector). This affects the airbag control units (aka pyrotechnical control units or PCUs) of unspecified passenger vehicles manufactured in 2014 or later, when the ignition is on and the speed is less than 6 km/h. Specifically, there are only 256 possible key pairs, and authentication attempts have no rate limit. In addition, at least one manufacturer's interpretation of the ISO 26021 standard is that it must be possible to calculate the key directly (i.e., the other 255 key pairs must not be used). Exploitation would typically involve an attacker who has already gained access to the CAN bus, and sends a crafted Unified Diagnostic Service (UDS) message to detonate the pyrotechnical charges, resulting in the same passenger-injury risks as in any airbag deployment."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2018-03-27T07:57:01",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.rapid7.com/db/modules/post/hardware/automotive/pdt"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "http://www.mmt.hs-karlsruhe.de/downloads/IEEM/Schwachstellen/PCU_Vulnerability_Description_HsKA.PDF"
+                    },
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.researchgate.net/publication/321183727_Security_Evaluation_of_an_Airbag-ECU_by_Reusing_Threat_Modeling_Artefacts"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2017-14937",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "The airbag detonation algorithm allows injury to passenger-car occupants via predictable Security Access (SA) data to the internal CAN bus (or the OBD connector). This affects the airbag control units (aka pyrotechnical control units or PCUs) of unspecified passenger vehicles manufactured in 2014 or later, when the ignition is on and the speed is less than 6 km/h. Specifically, there are only 256 possible key pairs, and authentication attempts have no rate limit. In addition, at least one manufacturer's interpretation of the ISO 26021 standard is that it must be possible to calculate the key directly (i.e., the other 255 key pairs must not be used). Exploitation would typically involve an attacker who has already gained access to the CAN bus, and sends a crafted Unified Diagnostic Service (UDS) message to detonate the pyrotechnical charges, resulting in the same passenger-injury risks as in any airbag deployment."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.rapid7.com/db/modules/post/hardware/automotive/pdt",
+                                "refsource": "MISC",
+                                "url": "https://www.rapid7.com/db/modules/post/hardware/automotive/pdt"
+                            },
+                            {
+                                "name": "http://www.mmt.hs-karlsruhe.de/downloads/IEEM/Schwachstellen/PCU_Vulnerability_Description_HsKA.PDF",
+                                "refsource": "MISC",
+                                "url": "http://www.mmt.hs-karlsruhe.de/downloads/IEEM/Schwachstellen/PCU_Vulnerability_Description_HsKA.PDF"
+                            },
+                            {
+                                "name": "https://www.researchgate.net/publication/321183727_Security_Evaluation_of_an_Airbag-ECU_by_Reusing_Threat_Modeling_Artefacts",
+                                "refsource": "MISC",
+                                "url": "https://www.researchgate.net/publication/321183727_Security_Evaluation_of_an_Airbag-ECU_by_Reusing_Threat_Modeling_Artefacts"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2017-14937",
+            "datePublished": "2017-10-20T14:00:00",
+            "dateReserved": "2017-09-29T00:00:00",
+            "dateUpdated": "2018-03-27T07:57:01",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    },
+    {
+        "containers": {
+            "cna": {
+                "affected": [
+                    {
+                        "product": "n/a",
+                        "vendor": "n/a",
+                        "versions": [
+                            {
+                                "status": "affected",
+                                "version": "n/a"
+                            }
+                        ]
+                    }
+                ],
+                "datePublic": "2017-05-10T00:00:00",
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "SAP SAPCAR 721.510 has a Heap Based Buffer Overflow Vulnerability. It could be exploited with a crafted CAR archive file received from an untrusted remote source. The problem is that the length of data written is an arbitrary number found within the file. The vendor response is SAP Security Note 2441560."
+                    }
+                ],
+                "problemTypes": [
+                    {
+                        "descriptions": [
+                            {
+                                "description": "n/a",
+                                "lang": "en",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ],
+                "providerMetadata": {
+                    "dateUpdated": "2017-08-15T09:57:01",
+                    "orgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+                    "shortName": "mitre"
+                },
+                "references": [
+                    {
+                        "tags": [
+                            "x_refsource_MISC"
+                        ],
+                        "url": "https://www.coresecurity.com/advisories/sap-sapcar-heap-based-buffer-overflow-vulnerability"
+                    },
+                    {
+                        "name": "41991",
+                        "tags": [
+                            "exploit",
+                            "x_refsource_EXPLOIT-DB"
+                        ],
+                        "url": "https://www.exploit-db.com/exploits/41991/"
+                    },
+                    {
+                        "name": "98350",
+                        "tags": [
+                            "vdb-entry",
+                            "x_refsource_BID"
+                        ],
+                        "url": "http://www.securityfocus.com/bid/98350"
+                    }
+                ],
+                "x_legacyV4Record": {
+                    "CVE_data_meta": {
+                        "ASSIGNER": "cve@mitre.org",
+                        "ID": "CVE-2017-8852",
+                        "STATE": "PUBLIC"
+                    },
+                    "affects": {
+                        "vendor": {
+                            "vendor_data": [
+                                {
+                                    "product": {
+                                        "product_data": [
+                                            {
+                                                "product_name": "n/a",
+                                                "version": {
+                                                    "version_data": [
+                                                        {
+                                                            "version_value": "n/a"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "vendor_name": "n/a"
+                                }
+                            ]
+                        }
+                    },
+                    "data_format": "MITRE",
+                    "data_type": "CVE",
+                    "data_version": "4.0",
+                    "description": {
+                        "description_data": [
+                            {
+                                "lang": "eng",
+                                "value": "SAP SAPCAR 721.510 has a Heap Based Buffer Overflow Vulnerability. It could be exploited with a crafted CAR archive file received from an untrusted remote source. The problem is that the length of data written is an arbitrary number found within the file. The vendor response is SAP Security Note 2441560."
+                            }
+                        ]
+                    },
+                    "problemtype": {
+                        "problemtype_data": [
+                            {
+                                "description": [
+                                    {
+                                        "lang": "eng",
+                                        "value": "n/a"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "references": {
+                        "reference_data": [
+                            {
+                                "name": "https://www.coresecurity.com/advisories/sap-sapcar-heap-based-buffer-overflow-vulnerability",
+                                "refsource": "MISC",
+                                "url": "https://www.coresecurity.com/advisories/sap-sapcar-heap-based-buffer-overflow-vulnerability"
+                            },
+                            {
+                                "name": "41991",
+                                "refsource": "EXPLOIT-DB",
+                                "url": "https://www.exploit-db.com/exploits/41991/"
+                            },
+                            {
+                                "name": "98350",
+                                "refsource": "BID",
+                                "url": "http://www.securityfocus.com/bid/98350"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "cveMetadata": {
+            "assignerOrgId": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
+            "assignerShortName": "mitre",
+            "cveId": "CVE-2017-8852",
+            "datePublished": "2017-05-10T17:00:00",
+            "dateReserved": "2017-05-08T00:00:00",
+            "dateUpdated": "2017-08-15T09:57:01",
+            "state": "PUBLISHED"
+        },
+        "dataType": "CVE_RECORD",
+        "dataVersion": "5.0"
+    }
+]
