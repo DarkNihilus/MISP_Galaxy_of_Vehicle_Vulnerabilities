@@ -1,7 +1,17 @@
 # MISP_Galaxy_of_Vehicle_Vulnerabilities
 
-## Description
-This project scrap json file from https://github.com/CVEProject/cvelistV5.git and create new json file for each year containing relevent CVE related to Vehicule vulnerability
+***Authors***: Alecis Blanchet & Florent Vaidie
+
+***Teachers***: Alexandre Dulaunoy [@adulau](https://github.com/adulau) & Christian Studer [@chris3rd](https://github.com/chrisr3d)
+
+## Context
+Vehicle's security has relied on them being isolated systems for a long time, leading to little or no internal security on the Control Area Network (CAN) bus used for internal communication. However today's vehicles not only rely more than ever on electronics, especially for safety features, but are more and more connected (Radio, Bluetooth, WiFi...) making for great surface of attack and potential impact.
+This project aims to provide an easy way to find Common Vulnerabilities and Exposures (CVE) relating to vehicle security by integrating them as a MISP Galaxy.
+
+## Methodology
+- Collect CVE data using this [CVE List](https://github.com/CVEProject/cvelistV5/)
+- Filter the data to focus on vehicle related vulnerabilities
+- Structure the filtered data into a MISP cluster for integration
 
 ## Requirements
 - Python 3
