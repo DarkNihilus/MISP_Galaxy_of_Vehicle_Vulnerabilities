@@ -1,6 +1,6 @@
 # MISP_Galaxy_of_Vehicle_Vulnerabilities
 
-***Authors***: Alecis Blanchet & Florent Vaidie
+***Authors***: Alexis Blanchet & Florent Vaidie
 
 ***Teachers***: Alexandre Dulaunoy [@adulau](https://github.com/adulau) & Christian Studer [@chris3rd](https://github.com/chrisr3d)
 
