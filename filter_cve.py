@@ -72,6 +72,8 @@ def main():
     delete_relevant_cve_files()
     # List all year directories
     year_dirs = [os.path.join(cvelist_dir, d) for d in os.listdir(cvelist_dir) if os.path.isdir(os.path.join(cvelist_dir, d))]
+    # Create cluster
+    cluster = {"authors":["Alexis Blanchet", "Florent Vaidie"], "category": "vulnerabilities", "description": "CVEs relating to vulnerabilities in vehicles", "name":"Vehicle Vulnerabilities", "source": "https://github.com/CVEProject/cvelistV5", "type": "vulnerabilities", "uuid": "5b9461d6-6e42-4623-91b2-1f6ed4d66296"}
 
     # Process each year directory
     for year_dir in year_dirs:
@@ -86,6 +88,12 @@ def main():
         # Count the number of CVEs and print the count
         num_cves = len(relevant_cves)
         print(f"Total number of CVEs in {year}: {num_cves}")
+
+        # Add CVE data to the cluster
+        cluster.update({"values":relevant_cves})
+    cluster.update({"version": 1})
+    with open("clusters/cves.json", "w") as outfile:
+    json.dump(cluster, outfile,indent = 4)
 
 if __name__ == "__main__":
     main()
