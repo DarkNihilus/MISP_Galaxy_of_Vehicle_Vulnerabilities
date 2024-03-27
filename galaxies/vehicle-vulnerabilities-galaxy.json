@@ -1,9 +1,8 @@
 {
     "description": "Vehicule Vulnerabilities galaxy based on open sources CVE.",
-    "icon": "android",
     "name": "Vehicle Vulnerabilities",
     "namespace": "misp",
     "type": "vulnerabilities",
-    "uuid": "7c68f4da-4503-4b40-a68b-5246387edde1",
+    "uuid": "1c262669-bfa4-4b14-88e3-be0f6b6df12b",
     "version": 3
 }

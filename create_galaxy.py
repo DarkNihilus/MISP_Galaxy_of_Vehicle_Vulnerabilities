@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import uuid
 
@@ -10,7 +11,7 @@ def update_cluster_with_cves():
         "name": "Vehicle Vulnerabilities",
         "source": "https://github.com/CVEProject/cvelistV5",
         "type": "vulnerabilities",
-        "uuid": "5b9461d6-6e42-4623-91b2-1f6ed4d66296",
+        "uuid": str(uuid.uuid4()),
         "values": []
     }
 
@@ -27,7 +28,9 @@ def update_cluster_with_cves():
         if filename.endswith('.json'):
             with open(os.path.join('relevant_cves', filename), 'r') as f:
                 relevant_cves = json.load(f)
-                cluster['values'].extend(relevant_cves)
+                # Format each CVE before adding it to the cluster
+                formatted_cves = [format_cve(cve) for cve in relevant_cves]
+                cluster['values'].extend(formatted_cves)
 
     with open('clusters/vehicle-vulnerabilities.json', 'w') as f:
         json.dump(cluster, f, indent=4)
@@ -36,19 +39,35 @@ def update_cluster_with_cves():
 
 
 def format_cve(cve):
+    uuid_cve = str(uuid.uuid4())
+
+    # Looking for a field 'uuid' already in the CVE
+    for key, value in cve.items():
+        if isinstance(value, str) and re.match(r"^[0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12}$", value):
+            uuid_cve = value
+            break
+
+    description = ''
+    if 'containers' in cve and 'cna' in cve['containers'] and 'descriptions' in cve['containers']['cna']:
+        description = cve['containers']['cna']['descriptions'][0].get('value', '')
+
+    cve_id = ''
+    if 'containers' in cve and 'cna' in cve['containers'] and 'x_legacyV4Record' in cve['containers']['cna']:
+        cve_id = cve['containers']['cna']['x_legacyV4Record']['CVE_data_meta'].get('ID', '')
+
     formatted_cve = {
-        "description": cve.get('description', ''),
+        "description": description,
         "meta": cve.get('cveMetadata', {}),
-        "uuid": str(uuid.uuid4()),
-        "value": cve.get('containers', {}).get('cna', {}).get('title', '')
+        "uuid": uuid_cve,
+        "value": cve_id  
     }
     return formatted_cve
+
 
 
 def create_galaxy(cluster):
     galaxy = {
         "description": "Vehicule Vulnerabilities galaxy based on open sources CVE.",
-        "icon": "android",
         "name": cluster.get('name', ''),
         "namespace": "misp",
         "type": cluster.get('type', ''),
