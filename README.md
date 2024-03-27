@@ -28,12 +28,15 @@ python filter_cve.py
 ```
 
 
-### Step 3: Integration into MISP
-Finally we use `integration.py` to create the CVE into a instance of training MISP (https://training6.misp-community.org/)
+### Step 3: Creation of cluster and galaxy
+Finally we use `create_galaxy.py` to create the cluster of CVE and the galaxy related
+
+
 
 ```sh
-python integration.py
+python create_galaxy.py
 ```
 
 
 ## Conclusion
+(https://training6.misp-community.org/)
