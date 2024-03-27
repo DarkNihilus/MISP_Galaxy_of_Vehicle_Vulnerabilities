@@ -92,7 +92,7 @@ def main():
         # Add CVE data to the cluster
         cluster.update({"values":relevant_cves})
     cluster.update({"version": 1})
-    with open("clusters/cves.json", "w") as outfile:
+    with open("clusters/vehicle-vulnerabilities.json", "w") as outfile:
     json.dump(cluster, outfile,indent = 4)
 
 if __name__ == "__main__":
